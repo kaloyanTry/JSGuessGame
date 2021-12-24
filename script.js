@@ -16,6 +16,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     displayMessage('No number!');
   }
+  
   if (guess === secretNumber) {
     displayMessage('Correct number! You guess it :)');
     number.textContent = secretNumber;
