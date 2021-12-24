@@ -1,0 +1,30 @@
+{
+  "name": "guess-number",
+  "version": "1.0.0",
+  "description": "Guess number game",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaloyanTry/JSGuessGame.git"
+  },
+  "keywords": [
+    "game",
+    "guess",
+    "number",
+    "app",
+    "js"
+  ],
+  "author": "Kaloyan Ganchev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaloyanTry/JSGuessGame/issues"
+  },
+  "homepage": "https://github.com/kaloyanTry/JSGuessGame#readme",
+  "dependencies": {
+    "parcel": "^2.0.1"
+  }
+}
